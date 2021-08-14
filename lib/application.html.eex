@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/javascript" defer="defer" src="js/application.js"></script>
+  <title>Elixir Web Server</title>
+</head>
+<body>
+  <main>
+    <section class="chat-section">
+      <ul class="chat-content-js chat-content"></ul>
+    </section>
+    <section class="comment-input-section">
+      <form>
+        <textarea id="message"></textarea>
+        <input type="submit" value="send" id="button">
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
