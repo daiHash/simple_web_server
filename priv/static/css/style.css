@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-touch-callout: none;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background-image: url(../images/bg.jpg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+}
+
+main {
+  position: relative;
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.chat-section {
+  height: calc(100% - 70px);
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 40px 25px;
+  background-color: #e5dcd8;
+  overflow-y: auto;
+}
+
+.comment-input-section {
+  width: 100%;
+}
+
+.comment-input-section > form {
+  display: flex;
+}
+
+.comment-input-section > form > textarea {
+  max-height: 36px;
+  width: 80%;
+  resize: none;
+  font-size: 1.2rem;
+  border: 0;
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+
+.comment-input-section > form > input {
+  max-height: 36px;
+  width: 20%;
+  border: 0;
+  border-radius: 2px;
+  background-color: #34b7f1;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.dialog-item:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.dialog {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  display: inline-block;
+  padding: 5px 20px;
+  white-space: pre-line;
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Not Found Page */
+.not-found-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 200px;
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
