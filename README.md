@@ -1,6 +1,5 @@
 # SimpleWebServer
-
-**TODO: Add description**
+Simple Chat Server(Web Sockets) in Elixir using Cowboy and Plug
 
 ## Installation
 
