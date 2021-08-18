@@ -1,7 +1,13 @@
 defmodule SimpleWebServer.Router do
+  @doc """
+    Handle the non-web socket related routes
+  """
   use Plug.Router
   require EEx
 
+  @doc """
+    Serve static assets
+  """
   plug(Plug.Static,
     at: "/",
     from: :simple_web_server,
