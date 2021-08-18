@@ -23,7 +23,8 @@ defmodule SimpleWebServer.MixProject do
   defp deps do
     [
       {:plug_cowboy, "~> 2.0"},
-      {:jason, "~> 1.2"}
+      {:jason, "~> 1.2"},
+      {:ex_doc, "~> 0.21", only: :dev, runtime: false}
     ]
   end
 end
